@@ -168,7 +168,7 @@
             <span class="line line-3"></span>
           </button>
     
-          <div class="overlay active" data-nav-toggler data-overlay></div>
+          <div class="overlay" data-nav-toggler data-overlay></div>
     
         </div>
       </header>
@@ -548,7 +548,14 @@
       </section>
       <!---------------- END OF SERVICES SECTION ----------------->
 
-
+      <section class="chatbot">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+          chat-title="FAQ&#x27;s"
+          agent-id="9d87d913-ebda-4883-a16e-338068a62e8b"
+          language-code="en"
+        ></df-messenger>
+      </section>
 
       <!--------------------------  instagram section ---------------------->
       <section class="section top-collection" aria-labelledby="collection-label" id="testimonials">
